@@ -1,0 +1,16 @@
+.equipos{
+    width: 100%;
+    background-color: #D9F7E9;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.equipos h3{
+    color:#212121;
+    font-size: 32px;
+    font-family: "Prata", serif;
+    font-weight: 400;   
+    border-bottom: 4px solid #57C278;
+    padding-bottom: 8px;
+    display:inline-block
+}
