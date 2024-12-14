@@ -1,0 +1,21 @@
+.organizacion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.organizacion h3 {
+  color: #6278f7;
+  font-family: Prata;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 24px;
+  border-bottom: 4px solid #6278f7;
+}
+.addItem {
+  position: absolute;
+  right:20%;
+  cursor:pointer;
+ 
+}
