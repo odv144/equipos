@@ -6,6 +6,17 @@
   font-size: 32px;
 
 }
+.cambioColor{
+  position: relative;
+}
+
+.inputColor{
+  position:absolute;
+  display: inline-block;
+  top:10px;
+  right:10px
+}
+
 .equipos h3 {
   font-weight: 400;
   font-family: "Prata", serif;

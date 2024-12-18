@@ -22,6 +22,21 @@ function App() {
       foto: "https://picsum.photos/200/300",
       equipo: "FrontEnd",
     },
+    {
+      id: 3,
+      nombre: "Eliana Yaccuzzi",
+      puesto: "Development",
+      foto: "https://picsum.photos/200/300",
+      equipo: "FrontEnd",
+    },
+    {
+      id: 4,
+      nombre: "Yaccuzzi Omar Amilcar",
+      puesto: "",
+      foto: "https://picsum.photos/200/300",
+      equipo: "Data Science",
+    },
+
   ]);
 
   const equipos = [
@@ -73,6 +88,7 @@ function App() {
   };
   //Eliminar colaborar
   const eliminarColaborador = (id) => {
+    setColaboradores(colaboradores.filter(colaborador=>colaborador.id!==id))
     console.log("Eliminar colaborador",id)
   }
 
